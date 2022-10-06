@@ -1,0 +1,17 @@
+.Button {
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: none;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  top: 0.6rem;
+  right: 1rem;
+  transition: opacity .3s;
+}
