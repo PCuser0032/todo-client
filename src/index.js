@@ -9,10 +9,6 @@ import "bootstrap/dist/css/bootstrap.css";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>main page</div>,
-  },
-  {
-    path: "/app",
     element: <App />,
   },
   {
