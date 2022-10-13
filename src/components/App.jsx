@@ -8,6 +8,11 @@ function App() {
         <div className="pt-3">
           <ul class="list-group">
             <li class="list-group-item">
+              <a className="page-link link-primary" href="/todo">
+                ToDo
+              </a>
+            </li>
+            <li class="list-group-item">
               <a className="page-link link-primary" href="/sign-in">
                 Sign in page
               </a>

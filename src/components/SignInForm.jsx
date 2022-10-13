@@ -3,7 +3,7 @@ import MyForm from "./MyForm";
 
 function SignInForm() {
   return (
-    <div className="vh-100 d-flex justify-content-center align-items-center bg-teal-1">
+    <div className="vh-100 d-flex justify-content-center align-items-center bg-green-1">
       <div>
         <div className="d-flex justify-content-center mb-4">
           <p className="h4">Sign in</p>

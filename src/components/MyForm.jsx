@@ -88,7 +88,11 @@ function MyForm() {
         ></button>
       </div>
       <div className="d-flex justify-content-center">
-        <button className="btn btn-success px-4" type="submit">
+        <button
+          className="btn btn-success px-4"
+          type="submit"
+          disabled={!((loginError === "") && (passwordError === ""))}
+        >
           Submit
         </button>
       </div>
