@@ -1,15 +1,13 @@
 import React, { useState } from "react";
-// import Task from "./Task";
 import "../css/todo.css";
 import "../css/avatar.css";
-// import avatar from "../img/grug.jpeg";
 import avatar from "../img/tree.jpg";
 import DeleteModalForm from "./DeleteModalForm";
 
 function ToDo() {
   const username = "Denis";
 
-  const [active, setModalActive] = useState(false);
+  // const [active, setModalActive] = useState(false);
   const [taskList, setTaskList] = useState([]);
   const [taskDescription, setTaskDescription] = useState("");
 
@@ -17,11 +15,11 @@ function ToDo() {
     return (
       <li key={index}>
         {/* <Task id={index + 1} description={description} /> */}
-        <div className="d-block d-flex align-items-center bg-green-2 mb-4 py-3 px-4 rounded">
+        <div className="d-block d-flex align-center bg-green-2 mb-4 py-3 px-4 rounded">
           <div className="d-inline-block border-end border-dark fs-4 me-3 pe-3">
             {index + 1}
           </div>
-          <div className="w-100">{description}</div>
+          <div className="w-100 pt-2"><div>{description}</div></div>
           <div className="d-flex border-start border-dark ps-3">
             <button className="btn btn-primary me-3 py-2 px-4">Edit</button>
             <button className="btn btn-danger py-2 px-3">Delete</button>
@@ -48,9 +46,10 @@ function ToDo() {
 
   return (
     <div className="position-relative vh-100 bg-green-1">
-      <DeleteModalForm active={active} setActive={setModalActive} />
+      {/* <DeleteModalForm active={active} setActive={setModalActive} /> */}
+      <DeleteModalForm />
       <header
-        className="position-absolute w-100 d-flex justify-content-between align-items-center bg-green-2 py-3 px-4"
+        className="position-absolute w-100 d-flex justify-content-between align-center bg-green-2 py-3 px-4"
         style={{ zIndex: 2 }}
       >
         <div className="d-flex align-items-center">

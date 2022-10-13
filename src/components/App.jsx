@@ -13,6 +13,11 @@ function App() {
               </a>
             </li>
             <li class="list-group-item">
+              <a className="page-link link-primary" href="/app-test">
+                App test
+              </a>
+            </li>
+            <li class="list-group-item">
               <a className="page-link link-primary" href="/sign-in">
                 Sign in page
               </a>
