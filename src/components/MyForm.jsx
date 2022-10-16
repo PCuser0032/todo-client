@@ -91,7 +91,7 @@ function MyForm() {
         <button
           className="btn btn-success px-4"
           type="submit"
-          disabled={!((loginError === "") && (passwordError === ""))}
+          disabled={!(loginError === "" && passwordError === "")}
         >
           Submit
         </button>

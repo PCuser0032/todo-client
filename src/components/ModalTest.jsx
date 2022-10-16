@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/modal-test.css"
+import "../css/modal-test.css";
 
 function ModalTest({ active, setActive }) {
   return (

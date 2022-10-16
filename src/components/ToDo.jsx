@@ -19,7 +19,9 @@ function ToDo() {
           <div className="d-inline-block border-end border-dark fs-4 me-3 pe-3">
             {index + 1}
           </div>
-          <div className="w-100 pt-2"><div>{description}</div></div>
+          <div className="w-100 pt-2">
+            <div>{description}</div>
+          </div>
           <div className="d-flex border-start border-dark ps-3">
             <button className="btn btn-primary me-3 py-2 px-4">Edit</button>
             <button className="btn btn-danger py-2 px-3">Delete</button>
